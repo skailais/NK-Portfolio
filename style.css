@@ -3,6 +3,31 @@ body {
   z-index: -10;
 }
 
+.line1 {
+  background-color: white;
+  width: 690px;
+  height: 1px;
+  z-index: 10;
+}
+
+.line2 {
+  background-color: white;
+  width: 12.73px;
+  height: 1px;
+  z-index: 10;
+  transform: rotate(-45deg);
+  z-index: 10;
+}
+
+.line3 {
+  background-color: white;
+  width: 12.73px;
+  height: 1px;
+  z-index: 10;
+  transform: rotate(-135deg);
+  z-index: 10;
+}
+
 .Fon1 {
   width: 1920px;
   height: 1080px;
@@ -123,7 +148,7 @@ p {
   z-index: -2;
 }
 
-.Blur1 {
+.Slide2 > .Blur1 {
   position: absolute;
   left: 0px;
   top: 1080px;
@@ -138,6 +163,7 @@ p {
 }
 
 .fire {
+  margin: 0;
   background: linear-gradient(180deg, #000 23%, rgba(148, 148, 148, 0) 83%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -159,6 +185,7 @@ p {
 }
 
 .walker {
+  margin: 0;
   color: rgba(255, 255, 255, 0.54);
   font-family: "Pragati Narrow";
   font-size: 200px;
@@ -179,4 +206,437 @@ p {
   position: absolute;
   top: 1080px;
   z-index: 1;
+}
+
+.Slide2 > .line1position {
+  position: absolute;
+  left: 95px;
+  top: 1489px;
+}
+
+.Slide2 > .line2position {
+  position: absolute;
+  left: 439.4px;
+  top: 1517px;
+}
+
+.Slide2 > .line3position {
+  position: absolute;
+  left: 431px;
+  top: 1517px;
+}
+
+.Fon3 {
+  width: 1920px;
+  height: 1080px;
+  flex-shrink: 0;
+  background: var(
+    --fon,
+    linear-gradient(134deg, #1c1c1c 15.75%, #2e2e2e 74.68%)
+  );
+  z-index: -2;
+}
+
+.Slide3 > .Blur1 {
+  position: absolute;
+  left: 0px;
+  top: 2160px;
+  width: 871px;
+  height: 1080px;
+  flex-shrink: 0;
+  fill: rgba(217, 217, 217, 0.1);
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(17.5px);
+  z-index: 2;
+}
+
+.dualsence {
+  position: absolute;
+  top: 2160px;
+}
+
+.dual {
+  margin: 0;
+  background: linear-gradient(180deg, #fff 0%, rgba(153, 153, 153, 0) 81.54%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: plus-darker;
+  font-family: "Pragati Narrow";
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%; /* 241.496px */
+  letter-spacing: 50px;
+  position: absolute;
+  left: 293px;
+  top: 2289px;
+  z-index: 2;
+}
+
+.sence {
+  margin: 0;
+  background: linear-gradient(180deg, #fff 0%, rgba(153, 153, 153, 0) 81.54%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Pragati Narrow";
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%; /* 241.496px */
+  letter-spacing: 50px;
+  position: absolute;
+  left: 907px;
+  top: 2289px;
+  z-index: 2;
+}
+
+.Slide3 > .line1position {
+  position: absolute;
+  left: 95px;
+  top: 2569px;
+}
+
+.Slide3 > .line2position {
+  position: absolute;
+  left: 439.4px;
+  top: 2597px;
+}
+
+.Slide3 > .line3position {
+  position: absolute;
+  left: 431px;
+  top: 2597px;
+}
+
+.Fon4 {
+  width: 1920px;
+  height: 1080px;
+  flex-shrink: 0;
+  background: #090909;
+  z-index: -2;
+}
+
+.Slide4 > .Blur1 {
+  position: absolute;
+  left: 0px;
+  top: 3240px;
+  width: 871px;
+  height: 1080px;
+  flex-shrink: 0;
+  fill: rgba(217, 217, 217, 0.1);
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(17.5px);
+  z-index: 2;
+}
+
+.marshall {
+  position: absolute;
+  top: 3240px;
+}
+
+.mar {
+  margin: 0;
+  background: linear-gradient(180deg, #fff 11.91%, rgba(60, 60, 60, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: plus-darker;
+  font-family: "Pragati Narrow";
+  font-size: 230px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%; /* 277.72px */
+  letter-spacing: 57.5px;
+  width: 819px;
+  height: 235px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 345px;
+  top: 3336px;
+  z-index: 2;
+}
+
+.shall {
+  margin: 0;
+  background: linear-gradient(180deg, #fff 11.91%, rgba(153, 153, 153, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Pragati Narrow";
+  font-size: 230px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%; /* 277.72px */
+  letter-spacing: 57.5px;
+  width: 819px;
+  height: 235px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 910px;
+  top: 3336px;
+  z-index: 2;
+}
+
+.Slide4 > .line1position {
+  position: absolute;
+  left: 95px;
+  top: 3649px;
+}
+
+.Slide4 > .line2position {
+  position: absolute;
+  left: 439.4px;
+  top: 3677px;
+}
+
+.Slide4 > .line3position {
+  position: absolute;
+  left: 431px;
+  top: 3677px;
+}
+
+.Fon5 {
+  width: 1920px;
+  height: 1080px;
+  flex-shrink: 0;
+  background: var(
+    --fon,
+    linear-gradient(134deg, #1c1c1c 15.75%, #2e2e2e 74.68%)
+  );
+  z-index: -2;
+}
+
+.Slide5 > .Blur1 {
+  position: absolute;
+  left: 0px;
+  top: 4320px;
+  width: 871px;
+  height: 1080px;
+  flex-shrink: 0;
+  fill: rgba(217, 217, 217, 0.1);
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(17.5px);
+  z-index: 2;
+}
+
+.glasses {
+  position: absolute;
+  top: 4320px;
+}
+
+.gla {
+  margin: 0;
+  background: linear-gradient(180deg, #fff 11.91%, rgba(60, 60, 60, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: plus-darker;
+  font-family: "Pragati Narrow";
+  font-size: 230px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%; /* 277.72px */
+  letter-spacing: 57.5px;
+  width: 819px;
+  height: 235px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 255px;
+  top: 4575px;
+  z-index: 2;
+}
+
+.sses {
+  margin: 0;
+  color: #fff;
+  font-family: "Pragati Narrow";
+  font-size: 230px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%; /* 277.72px */
+  letter-spacing: 57.5px;
+  position: absolute;
+  left: 895px;
+  top: 4575px;
+  z-index: 2;
+}
+
+.Slide5 > .line1position {
+  position: absolute;
+  left: 95px;
+  top: 4823px;
+}
+
+.Slide5 > .line2position {
+  position: absolute;
+  left: 439.4px;
+  top: 4851px;
+}
+
+.Slide5 > .line3position {
+  position: absolute;
+  left: 431px;
+  top: 4851px;
+}
+
+.Fon6 {
+  width: 1920px;
+  height: 1080px;
+  flex-shrink: 0;
+  background: #000000;
+  z-index: -2;
+}
+
+.Slide6 > .Blur1 {
+  position: absolute;
+  left: 0px;
+  top: 5400px;
+  width: 871px;
+  height: 1080px;
+  flex-shrink: 0;
+  fill: rgba(217, 217, 217, 0.1);
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(17.5px);
+  z-index: 2;
+}
+
+.chappie1 {
+  position: absolute;
+  top: 5400px;
+  left: 709px;
+}
+
+.chappie2 {
+  position: absolute;
+  top: 5694px;
+  left: 0px;
+}
+
+.chappie {
+  margin: 0;
+  color: #fff;
+  font-family: "Pragati Narrow";
+  font-size: 151px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%; /* 182.33px */
+  letter-spacing: 37.75px;
+  width: 915px;
+  height: 289px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 73px;
+  top: 5495px;
+  z-index: 2;
+}
+
+.Slide6 > .line1position {
+  position: absolute;
+  left: 95px;
+  top: 5770px;
+}
+
+.Slide6 > .line2position {
+  position: absolute;
+  left: 439.4px;
+  top: 5798px;
+}
+
+.Slide6 > .line3position {
+  position: absolute;
+  left: 431px;
+  top: 5798px;
+}
+
+.Fon7 {
+  width: 1920px;
+  height: 1080px;
+  flex-shrink: 0;
+  background: var(
+    --fon,
+    linear-gradient(134deg, #1c1c1c 15.75%, #2e2e2e 74.68%)
+  );
+  z-index: -2;
+}
+
+.figures {
+  position: absolute;
+  top: 6478px;
+  left: 240px;
+  z-index: 10;
+}
+
+.card {
+  position: absolute;
+  top: 6686px;
+  left: 649px;
+}
+
+.getInTouch {
+  width: 378px;
+  height: 117px;
+  text-align: left;
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.95);
+  font-family: "Microsoft Yi Baiti";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%; /* 57.959px */
+  letter-spacing: 1.44px;
+  position: absolute;
+  top: 6788px;
+  left: 737px;
+}
+
+.name {
+  margin: 0;
+  width: Fixed (101px) px;
+  height: Fixed (59px) px;
+  top: 7038px;
+  left: 738px;
+  font-family: Microsoft Yi Baiti;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.96px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.email {
+  margin: 0;
+  width: Fixed (101px) px;
+  height: Fixed (59px) px;
+  top: 7166px;
+  left: 738px;
+  font-family: Microsoft Yi Baiti;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.96px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.underline1 {
+  background: rgba(255, 255, 255, 0.3);
+  width: 446px;
+  height: 1px;
+  position: absolute;
+  top: 7100px;
+  left: 737px;
+}
+
+.underline2 {
+  background: rgba(255, 255, 255, 0.3);
+  width: 446px;
+  height: 1px;
+  position: absolute;
+  top: 7230px;
+  left: 737px;
 }
