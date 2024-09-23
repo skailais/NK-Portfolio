@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  z-index: -10;
+}
+
+.Fon1 {
+  width: 1920px;
+  height: 1080px;
+  flex-shrink: 0;
+  background: var(
+    --fon,
+    linear-gradient(134deg, #1c1c1c 15.75%, #2e2e2e 74.68%)
+  );
+  position: relative;
+  top: 0;
+  z-index: -1;
+}
+
+.rectangle {
+  width: 45px;
+  height: 186px;
+  position: absolute;
+  left: 110px;
+  gap: 0px;
+  opacity: 0px;
+  background: linear-gradient(180deg, #00674f 0%, rgba(96, 203, 165, 0) 100%);
+}
+
+.N {
+  width: 212px;
+  height: 300px;
+  color: #00674f;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 300px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 300px */
+  letter-spacing: 147px;
+  margin: 0;
+  position: absolute;
+  top: 340px;
+  left: 854px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+h3 {
+  width: Fixed (232px) px;
+  height: Fixed (36px) px;
+  position: absolute;
+  top: 499px;
+  left: 16px;
+  gap: 0px;
+  transform: rotate(90deg);
+  color: #00674f;
+  text-align: center;
+  font-family: NanumMyeongjo;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 36px */
+  letter-spacing: 10.08px;
+}
+
+p {
+  color: #1a1a1a;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 25px */
+  letter-spacing: 12.25px;
+  position: absolute;
+  top: 802px;
+  left: 632px;
+}
+
+.hr1 {
+  background-color: #00674f;
+  width: 318px;
+  height: 1px;
+  flex-shrink: 0;
+  transform: rotate(0.25turn);
+  position: absolute;
+  top: 921px;
+  left: -28px;
+}
+
+.hr2 {
+  width: 1px;
+  height: 1060px;
+  flex-shrink: 0;
+  top: 20px;
+  left: 1788px;
+  gap: 0px;
+  opacity: 0px;
+  background: #242424;
+  position: absolute;
+  top: 20px;
+  left: 1788px;
+}
+
+.hr3 {
+  width: 3px;
+  height: 71px;
+  flex-shrink: 0;
+  background: #00674f;
+  position: absolute;
+  top: 0px;
+  left: 1787px;
+}
+
+.Fon2 {
+  width: 1920px;
+  height: 1080px;
+  flex-shrink: 0;
+  background: var(
+    --fon,
+    linear-gradient(134deg, #1c1c1c 15.75%, #2e2e2e 74.68%)
+  );
+  z-index: -2;
+}
+
+.Blur1 {
+  position: absolute;
+  left: 0px;
+  top: 1080px;
+  width: 871px;
+  height: 1080px;
+  flex-shrink: 0;
+  fill: rgba(217, 217, 217, 0.1);
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(17.5px);
+  z-index: 2;
+}
+
+.fire {
+  background: linear-gradient(180deg, #000 23%, rgba(148, 148, 148, 0) 83%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: soft-light;
+  font-family: "Pragati Narrow";
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%; /* 241.496px */
+  letter-spacing: 50px;
+  width: 572px;
+  height: 277px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 339px;
+  top: 1167px;
+  z-index: 2;
+}
+
+.walker {
+  color: rgba(255, 255, 255, 0.54);
+  font-family: "Pragati Narrow";
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%; /* 241.496px */
+  letter-spacing: 50px;
+  width: 935px;
+  height: 223px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 911px;
+  top: 1306px;
+  z-index: 2;
+}
+
+.firewalker1 {
+  position: absolute;
+  top: 1080px;
+  z-index: 1;
+}
