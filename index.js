@@ -1,3 +1,23 @@
+$(".arrow-1").click(function () {
+  $(".description-1").slideToggle();
+});
+
+$(".arrow-2").click(function () {
+  $(".description-2").slideToggle();
+});
+
+$(".arrow-3").click(function () {
+  $(".description-3").slideToggle();
+});
+
+$(".arrow-4").click(function () {
+  $(".description-4").slideToggle();
+});
+
+$(".arrow-5").click(function () {
+  $(".description-5").slideToggle();
+});
+
 // Находим все якорные элементы
 const anchors = document.querySelectorAll(".target");
 

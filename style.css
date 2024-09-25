@@ -5,23 +5,40 @@ body {
   );
 }
 
+.info-block {
+  height: 10vw;
+  width: 35.9375vw;
+  position: absolute;
+  top: 22.760416666666668vw;
+  left: 4.947916666666666vw;
+}
+
 .line1 {
   background-color: white;
   width: 35.9375vw;
   height: 1px;
   z-index: 10;
   position: absolute;
-  top: 21.302083333333332vw;
-  left: 4.947916666666666vw;
+}
+
+p {
+  text-align: center;
+  display: none;
+  color: white;
+  position: relative;
+  top: 7%;
+  width: 35.9375vw;
+  font-size: 1.417vw;
+  z-index: 10;
 }
 
 .fa-angle-down {
   color: white;
   font-size: 1.5729166666666666vw;
   z-index: 10;
+  margin-top: 7px;
   position: absolute;
-  top: 22.760416666666668vw;
-  left: 23.385416666666668vw;
+  left: 50%;
 }
 
 .Slide {
