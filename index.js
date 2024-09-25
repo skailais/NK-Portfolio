@@ -1,21 +1,21 @@
 $(".arrow-1").click(function () {
-  $(".description-1").slideToggle();
+  $(".description-1").slideToggle(1100);
 });
 
 $(".arrow-2").click(function () {
-  $(".description-2").slideToggle();
+  $(".description-2").slideToggle(1100);
 });
 
 $(".arrow-3").click(function () {
-  $(".description-3").slideToggle();
+  $(".description-3").slideToggle(1100);
 });
 
 $(".arrow-4").click(function () {
-  $(".description-4").slideToggle();
+  $(".description-4").slideToggle(1100);
 });
 
 $(".arrow-5").click(function () {
-  $(".description-5").slideToggle();
+  $(".description-5").slideToggle(1100);
 });
 
 // Находим все якорные элементы
