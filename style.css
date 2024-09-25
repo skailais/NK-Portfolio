@@ -196,10 +196,9 @@ body {
 }
 
 .blur {
-  fill: rgba(217, 217, 217, 0.1);
-  stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0);
-  backdrop-filter: blur(6.5px);
+  border-radius: 0% 10% 10% 0%;
+  border-right: solid rgba(217, 217, 217, 0.1) 1px;
+  backdrop-filter: blur(9.5px);
   position: absolute;
   left: 0em;
   top: 0em;
