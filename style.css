@@ -11,30 +11,17 @@ body {
   height: 1px;
   z-index: 10;
   position: absolute;
-  margin-top: 21.302083333333332vw;
-  margin-left: 4.947916666666666vw;
+  top: 21.302083333333332vw;
+  left: 4.947916666666666vw;
 }
 
-.line2 {
-  background-color: white;
-  width: 0.6630208333333334vw;
-  height: 1px;
-  transform: rotate(-45deg);
+.fa-angle-down {
+  color: white;
+  font-size: 1.5729166666666666vw;
   z-index: 10;
   position: absolute;
-  margin-top: 22.760416666666668vw;
-  margin-left: 23.385416666666668vw;
-}
-
-.line3 {
-  background-color: white;
-  width: 0.6630208333333334vw;
-  height: 1px;
-  transform: rotate(-135deg);
-  z-index: 10;
-  position: absolute;
-  margin-top: 22.760416666666668vw;
-  margin-left: 22.447916666666668vw;
+  top: 22.760416666666668vw;
+  left: 23.385416666666668vw;
 }
 
 .Slide {
@@ -172,7 +159,7 @@ body {
   position: absolute;
   font-size: 11.979166666666668vw;
   left: 1.6695652173913043em;
-  top: 1.275em;
+  top: 0.575em;
   z-index: 3;
   font-family: Pragati Narrow;
   font-weight: 400;
@@ -186,7 +173,7 @@ body {
   position: absolute;
   font-size: 11.979166666666668vw;
   left: 3.891304347826087em;
-  top: 1.275em;
+  top: 0.575em;
   z-index: 3;
   font-family: Pragati Narrow;
   font-weight: 400;
