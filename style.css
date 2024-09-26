@@ -382,7 +382,7 @@ body {
 }
 
 .name {
-  width: 5.26vw;
+  width: 23.229vw;
   text-align: left;
   flex-shrink: 0;
   color: rgba(255, 255, 255, 0.3);
@@ -391,15 +391,18 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 120.748%;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
   position: absolute;
   top: 29.063vw;
   left: 38.438vw;
   z-index: 10;
+  border: none;
+  border-bottom: rgba(255, 255, 255, 0.3) solid 1px;
+  background-color: #00000000;
 }
 
 .email {
-  width: 24.281vw;
+  width: 23.229vw;
   text-align: left;
   flex-shrink: 0;
   color: rgba(255, 255, 255, 0.3);
@@ -408,20 +411,14 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 120.748%;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
   position: absolute;
   top: 35.729vw;
   left: 38.438vw;
   z-index: 10;
-}
-
-.underline1 {
-  background: rgba(255, 255, 255, 0.3);
-  width: 23.229vw;
-  height: 1px;
-  position: absolute;
-  top: 31.792vw;
-  left: 38.438vw;
+  border: none;
+  border-bottom: rgba(255, 255, 255, 0.3) solid 1px;
+  background-color: #00000000;
 }
 
 .underline2 {
