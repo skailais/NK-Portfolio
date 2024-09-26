@@ -366,19 +366,19 @@ body {
 }
 
 .getInTouch {
-  width: 23vw;
+  width: 30vw;
   text-align: left;
   flex-shrink: 0;
   color: rgba(255, 255, 255, 0.95);
   font-family: Microsoft Yi Baiti;
-  font-size: 2.9vw;
+  font-size: 3.4vw;
   font-style: normal;
   font-weight: 400;
   line-height: 120.748%;
   letter-spacing: 0.03em;
   position: absolute;
-  top: 16.042vw;
-  left: 38.385vw;
+  top: 15.042vw;
+  left: 36.385vw;
 }
 
 .name {
@@ -393,7 +393,7 @@ body {
   line-height: 120.748%;
   letter-spacing: 0.01em;
   position: absolute;
-  top: 29.063vw;
+  top: 28.063vw;
   left: 38.438vw;
   z-index: 10;
   border: none;
@@ -413,7 +413,7 @@ body {
   line-height: 120.748%;
   letter-spacing: 0.01em;
   position: absolute;
-  top: 35.729vw;
+  top: 34.729vw;
   left: 38.438vw;
   z-index: 10;
   border: none;
