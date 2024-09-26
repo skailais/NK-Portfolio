@@ -5,6 +5,123 @@ body {
   );
 }
 
+.N {
+  width: 1.06em;
+  height: 1.5em;
+  color: #00674f;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 15.625vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 300px */
+  letter-spacing: 147px;
+  margin: 0;
+  position: absolute;
+  top: 17.708333333333336vw;
+  left: 44.479166666666664vw;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.explore {
+  width: 11.083333333333334vw;
+  position: absolute;
+  top: 24.3vw;
+  left: 1.1%;
+  transform: rotate(90deg);
+  color: #00674f;
+  text-align: center;
+  font-family: NanumMyeongjo;
+  font-size: 1.875vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 36px */
+  letter-spacing: 0.525vw;
+}
+
+.rectangle {
+  width: 2.34375vw;
+  height: 9.6875vw;
+  position: absolute;
+  top: 0px;
+  left: 5.73%;
+  opacity: 0px;
+  background: linear-gradient(180deg, #00674f 0%, rgba(96, 203, 165, 0) 100%);
+}
+
+.hr1 {
+  background-color: #00674f;
+  width: 1px;
+  height: 16.5625vw;
+  flex-shrink: 0;
+  position: absolute;
+  top: 39.6875vw;
+  left: 6.82%;
+}
+
+.hr2 {
+  width: 1px;
+  height: 55.208333333333336vw;
+  flex-shrink: 0;
+
+  gap: 0px;
+  opacity: 0px;
+  background: #242424;
+  position: absolute;
+  top: 1.0416666666666665vw;
+  left: 93.13%;
+}
+
+.hr3 {
+  width: 0.15625vw;
+  height: 3.6979166666666665vw;
+  flex-shrink: 0;
+  background: #00674f;
+  position: absolute;
+  top: 0px;
+  left: 93.07%;
+}
+
+.welcome {
+  width: 34.166666666666664vw;
+  color: #1a1a1a;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.3020833333333335vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 25px */
+  letter-spacing: 0.6380208333333334vw;
+  position: absolute;
+  top: 41.770833333333336vw;
+  left: 32.916666666666664vw;
+}
+
+.topArrow {
+  font-size: 1.5vw;
+  color: #244b3d;
+  position: absolute;
+  top: 47vw;
+  left: 49.53vw;
+}
+
+.middleArrow {
+  font-size: 2vw;
+  color: #244b3d;
+  position: absolute;
+  top: 47.8vw;
+  left: 49.37vw;
+}
+
+.downArrow {
+  font-size: 2.5vw;
+  color: #244b3d;
+  position: absolute;
+  top: 49vw;
+  left: 49.2vw;
+}
+
 .info-block {
   height: 10vw;
   width: 35.9375vw;
@@ -21,7 +138,7 @@ body {
   position: absolute;
 }
 
-p {
+.prop {
   text-align: center;
   display: none;
   color: white;
@@ -32,7 +149,7 @@ p {
   z-index: 10;
 }
 
-.fa-angle-down {
+.arrowProp {
   color: white;
   font-size: 1.5729166666666666vw;
   z-index: 10;
@@ -185,7 +302,7 @@ p {
 }
 
 .sses {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.54);
   line-height: 120.748%;
   position: absolute;
   font-size: 11.979166666666668vw;
@@ -199,7 +316,7 @@ p {
 }
 
 .chappie {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.54);
   line-height: 120.748%;
   position: absolute;
   font-size: 7.864583333333333vw;
@@ -224,82 +341,103 @@ p {
   z-index: 3;
 }
 
+.end {
+  position: relative;
+}
+
 .figures {
   position: absolute;
   width: 100vw;
+  z-index: 1;
 }
 
-/* .card {
-  fill: rgba(0, 206, 158, 0.15);
+.card {
+  background-color: rgba(0, 206, 158, 0.15);
   stroke-width: 1px;
   stroke: rgba(0, 222, 170, 0.5);
   backdrop-filter: blur(17.5px);
+  border-radius: 13px;
   position: absolute;
-  top: 1.03em;
-  left: 3.245em;
-  height: 35.833333333333336vw;
-  width: 32.447916666666664vw;
-} */
+  top: 10.729vw;
+  left: 33.802vw;
+  height: 35vw;
+  width: 31.7vw;
+  z-index: 0;
+}
 
 .getInTouch {
-  width: 378px;
-  height: 117px;
+  width: 23vw;
   text-align: left;
   flex-shrink: 0;
   color: rgba(255, 255, 255, 0.95);
-  font-family: "Microsoft Yi Baiti";
-  font-size: 48px;
+  font-family: Microsoft Yi Baiti;
+  font-size: 2.9vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 120.748%; /* 57.959px */
-  letter-spacing: 1.44px;
+  line-height: 120.748%;
+  letter-spacing: 0.03em;
   position: absolute;
-  top: 6788px;
-  left: 737px;
+  top: 16.042vw;
+  left: 38.385vw;
 }
 
 .name {
-  margin: 0;
-  width: Fixed (101px) px;
-  height: Fixed (59px) px;
-  top: 7038px;
-  left: 738px;
-  font-family: Microsoft Yi Baiti;
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 57.96px;
-  letter-spacing: 0.03em;
+  width: 5.26vw;
   text-align: left;
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: Microsoft Yi Baiti;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%;
+  letter-spacing: 0.03em;
+  position: absolute;
+  top: 29.063vw;
+  left: 38.438vw;
+  z-index: 10;
 }
 
 .email {
-  margin: 0;
-  width: Fixed (101px) px;
-  height: Fixed (59px) px;
-  top: 7166px;
-  left: 738px;
-  font-family: Microsoft Yi Baiti;
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 57.96px;
-  letter-spacing: 0.03em;
+  width: 24.281vw;
   text-align: left;
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: Microsoft Yi Baiti;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.748%;
+  letter-spacing: 0.03em;
+  position: absolute;
+  top: 35.729vw;
+  left: 38.438vw;
+  z-index: 10;
 }
 
 .underline1 {
   background: rgba(255, 255, 255, 0.3);
-  width: 446px;
+  width: 23.229vw;
   height: 1px;
   position: absolute;
-  top: 7100px;
-  left: 737px;
+  top: 31.792vw;
+  left: 38.438vw;
 }
 
 .underline2 {
   background: rgba(255, 255, 255, 0.3);
-  width: 446px;
+  width: 23.229vw;
   height: 1px;
   position: absolute;
-  top: 7230px;
-  left: 737px;
+  top: 38.563vw;
+  left: 38.438vw;
+}
+
+.footer {
+  height: 100vh;
+}
+
+.footer * a,
+.footer * p {
+  color: white;
 }
