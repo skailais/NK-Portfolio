@@ -110,7 +110,7 @@ body {
   font-size: 2vw;
   color: #244b3d;
   position: absolute;
-  top: 47.8vw;
+  top: 48vw;
   left: 49.37vw;
 }
 
@@ -183,8 +183,9 @@ body {
 .carousel-indicators {
   height: 0.9375vw;
   width: 20.9375vw;
-  margin-left: 69.11458333333333vw;
-  margin-bottom: 6.614583333333333vw;
+  left: 50.11458333333333vw;
+  bottom: 6.614583333333333vw;
+  padding-top: 10vw;
 }
 
 .fire {
@@ -439,4 +440,27 @@ body {
 .footer * a,
 .footer * p {
   color: white;
+}
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+@keyframes wipe-enter {
+  0% {
+    transform: scale(0, 0.025);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .line-animation {
+    animation: wipe-enter 2s 1;
+  }
 }

@@ -55,3 +55,36 @@ window.addEventListener(
   },
   { passive: false }
 );
+
+// Create the observer
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("line-animation");
+      return;
+    }
+  });
+});
+
+// Get multiple elements instead of a single one using "querySelectorAll"
+const squares = document.querySelectorAll(".line1");
+
+// Loop over the elements and add each one to the observer
+squares.forEach((element) => observer.observe(element));
+
+// Fading text
+
+const observer2 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+      return;
+    }
+  });
+});
+
+// Get multiple elements instead of a single one using "querySelectorAll"
+const texts = document.querySelectorAll(".tag");
+
+// Loop over the elements and add each one to the observer
+texts.forEach((element) => observer2.observe(element));
