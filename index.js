@@ -56,7 +56,7 @@ window.addEventListener(
   { passive: false }
 );
 
-// Create the observer
+// Lines Animation
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -67,13 +67,12 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 // Get multiple elements instead of a single one using "querySelectorAll"
-const squares = document.querySelectorAll(".line1");
+const squares = document.querySelectorAll(".linetag");
 
 // Loop over the elements and add each one to the observer
 squares.forEach((element) => observer.observe(element));
 
 // Fading text
-
 const observer2 = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -83,8 +82,20 @@ const observer2 = new IntersectionObserver((entries) => {
   });
 });
 
-// Get multiple elements instead of a single one using "querySelectorAll"
 const texts = document.querySelectorAll(".tag");
 
-// Loop over the elements and add each one to the observer
 texts.forEach((element) => observer2.observe(element));
+
+//Figure animation
+const observer3 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("move-anim");
+      return;
+    }
+  });
+});
+
+const figures = document.querySelectorAll(".moveFigure");
+
+figures.forEach((element) => observer3.observe(element));
