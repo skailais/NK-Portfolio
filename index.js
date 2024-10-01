@@ -46,7 +46,7 @@ window.addEventListener(
 
     // Прокручиваем на 50 пикселей ниже якоря
     window.scrollTo({
-      top: anchorPosition + 50, // Смещение на 50 пикселей ниже
+      top: anchorPosition + 40, // Смещение на 50 пикселей ниже
       behavior: "smooth", // Плавная прокрутка
     });
 
